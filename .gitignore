@@ -1,0 +1,24 @@
+
+# Ignore python environment
+Lib/
+Scripts/
+pyvenv.cfg
+*.pyc
+__pycache__/
+
+# Virtual environments
+venv/
+env/
+phishing_detector_env/
+
+# VirtualBox images
+*.vdi
+*.vmdk
+*.vbox
+VirtualBox VMs/
+
+# Ignore big ML libraries
+*.dll
+*.lib
+*.so
+*.bin
